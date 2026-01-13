@@ -1,3 +1,17 @@
 {
+  "customizations": {
+    "vscode": {
+      "extensions": [
+		"streetsidesoftware.code-spell-checker"
+      ],
+      "settings": {
+    "[plaintext]": {
+      "editor.wordWrap": "on",
+      "cSpell.enabled": true
+    }
+      
+    }
+  },
   "postAttachCommand": "chmod +x .devcontainer/auto_commit.sh && .devcontainer/auto_commit.sh &"
+  }
 }
